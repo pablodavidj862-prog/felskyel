@@ -1,0 +1,268 @@
+
+* {
+	--max-screen-size: 920;
+}
+
+body {
+	background-color: #96e7ff;
+	--minContent: 0;
+}
+
+.btn-b {
+	position: absolute;
+	display: flex;
+	font-size: 32px;
+	font-style: normal;
+	letter-spacing: 0px;
+	background-color: #d9d9d9;
+	padding: 10px 0;
+	border-radius: 20px;
+	--minContent: 161;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* group */
+
+.group {
+	position: absolute;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	text-align: right;
+	padding-right: 488px;
+	--minContent: 810;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.group-subtitle {
+	position: relative; z-index: 1;
+	--minContent: 314;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end group*/
+
+
+.rect-a {
+	position: absolute; top: 7px; 
+	width: calc(100% - 0px); height: 40px;
+	max-width: 810px;
+	background-color: #d9d9d9;
+	--minContent: 527;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.title-registro {
+	position: absolute; top: 91px; left: 341px; right: 340px; 
+	text-align: left;
+	--minContent: 239;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.line1 {
+	position: absolute; top: 286px; left: 50%; 
+	translate: -50% 0;
+	margin-left: 103px;
+	width: 0; height: 22px;
+	flex-shrink: unset;
+	border-left: 3px solid #d9d9d9;
+}
+
+.btn-confirmar {
+	position: absolute; top: 1202px; left: 50%; 
+	translate: -50% 0;
+	margin-left: -39px;
+	width: 225px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #f7f7f7;
+	padding: 6px 9px;
+	--minContent: 186;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.btn1 {
+	top: 240px; left: 239px; 
+	width: 161px;
+	text-align: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.subtitle-cual-es-tu {
+	position: absolute; top: 177px; left: 318px; right: 318px; 
+	text-align: left;
+	--minContent: 284;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn-proveedor {
+	top: 239px; left: 50%; 
+	translate: -50% 0;
+	margin-left: 99px;
+	width: 197px;
+	justify-content: center;
+	text-align: center;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.subtitle-o {
+	position: absolute; top: 250px; left: 50%; 
+	translate: -50% 0;
+	margin-left: -25px;
+	width: max-content;
+	text-align: left;
+	--minContent: -5;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.group1 {
+	position: absolute; top: 361px; left: 31px; 
+	width: calc(100% - 62px); height: 54px;
+	max-width: 810px;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	text-align: right;
+	--minContent: 0;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+}
+
+.group2 {
+	top: 0; left: 0; 
+	font-size: unset;
+	text-align: unset;
+	padding-left: 8px;
+}
+
+.group2 .group-rect {
+	left: 0; 
+}
+
+.group3 {
+	top: 0; left: 0; 
+	font-size: unset;
+	text-align: unset;
+	padding-left: 8px;
+}
+
+.group3 .group-rect {
+	left: 0; 
+}
+
+.group4 {
+	top: 445px; left: 31px; 
+	padding-left: 5px;
+}
+
+.group4 .group-rect {
+	left: 0; 
+}
+
+.group5 {
+	position: absolute; top: 550px; left: -8px; 
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	text-align: right;
+	padding-right: 286px;
+	--minContent: 849;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.rect1 {
+	left: 39px; 
+	width: calc(100% - 78px);
+}
+
+.subtitle-fecha-de {
+	position: relative; z-index: 1;
+	width: 100%;
+	max-width: 563px;
+	--minContent: 563;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.group6 {
+	top: 646px; left: 31px; 
+	padding-right: 516px;
+}
+
+.group6 .group-rect {
+	left: 0; 
+}
+
+.rect2 {
+	position: absolute; top: 749px; left: 31px; 
+	width: calc(100% - 62px); height: 40px;
+	max-width: 810px;
+	background-color: #d9d9d9;
+	--minContent: 527;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.subtitle-nombre-de-usuario {
+	position: absolute; z-index: 2; top: 742px; left: 39px; 
+	text-align: right;
+	--minContent: 327;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.group7 {
+	top: 838px; left: 31px; 
+	padding-left: 6px;
+	padding-right: 384px;
+}
+
+.group7 .group-rect {
+	left: 0; 
+}
+
+.confirmar {
+	position: absolute; top: 931px; left: 31px; 
+	width: calc(100% - 62px);
+	max-width: 810px;
+	text-align: left;
+	background-color: #d9d9d9;
+	padding: 0 6px;
+	--minContent: 810;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
