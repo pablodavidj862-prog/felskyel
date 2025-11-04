@@ -65,12 +65,8 @@ body {
 
 .title-registro {
 	position: absolute; top: 91px; left: 341px; right: 340px; 
-	text-align: left;
-	--minContent: 239;
-	--hSizing: FILL;
-	--vSizing: HUG;
-	--pConstraintHorizontal: STRETCH;
-	--pConstraintVertical: MIN;
+	text-align: center;
+	
 }
 
 .line1 {
@@ -83,7 +79,7 @@ body {
 }
 
 .btn-confirmar {
-	position: absolute; top: 1202px; left: 50%; 
+	position: absolute; top: 160px; left: 50%; 
 	translate: -50% 0;
 	margin-left: -39px;
 	width: 225px;
@@ -92,24 +88,23 @@ body {
 	text-align: center;
 	background-color: #f7f7f7;
 	padding: 6px 9px;
-	--minContent: 186;
-	--hSizing: FIXED;
-	--vSizing: HUG;
-	--pConstraintHorizontal: CENTER;
-	--pConstraintVertical: MIN;
+	color: black;
 }
 
 .btn1 {
-	top: 240px; left: 239px; 
+	top: 240px; left: 590px; 
+	translate: -50% 0;
+	margin-left: 99px;
 	width: 161px;
-	text-align: left;
+	justify-content: center;
+	text-align: center;
 	padding-left: 25px;
 	padding-right: 25px;
 }
 
 .subtitle-cual-es-tu {
 	position: absolute; top: 177px; left: 318px; right: 318px; 
-	text-align: left;
+	text-align: center;
 	--minContent: 284;
 	--hSizing: FILL;
 	--vSizing: HUG;
@@ -142,58 +137,32 @@ body {
 }
 
 .group1 {
-	position: absolute; top: 361px; left: 31px; 
-	width: calc(100% - 62px); height: 54px;
-	max-width: 810px;
+	position: absolute; top: 361px; left: 20%; 
+	height: 54px;
 	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
-	text-align: right;
-	--minContent: 0;
-	--hSizing: FIXED;
-	--vSizing: FIXED;
-	--pConstraintHorizontal: MIN;
-}
-
-.group2 {
-	top: 0; left: 0; 
-	font-size: unset;
-	text-align: unset;
-	padding-left: 8px;
-}
-
-.group2 .group-rect {
-	left: 0; 
-}
-
-.group3 {
-	top: 0; left: 0; 
-	font-size: unset;
-	text-align: unset;
-	padding-left: 8px;
-}
-
-.group3 .group-rect {
-	left: 0; 
-}
-
-.group4 {
-	top: 445px; left: 31px; 
+	text-align: center;
 	padding-left: 5px;
 }
 
-.group4 .group-rect {
-	left: 0; 
+
+
+
+
+.group4 {
+	position: absolute; top: 445px; left: 20%;
+	height: 54px;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	padding-left: 5px;
 }
 
+
 .group5 {
-	position: absolute; top: 550px; left: -8px; 
+	position: absolute; top: 550px; left: 20%;
 	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
-	text-align: right;
+	text-align: center;
 	padding-right: 286px;
-	--minContent: 849;
-	--hSizing: HUG;
-	--vSizing: HUG;
-	--pConstraintHorizontal: MIN;
-	--pConstraintVertical: MIN;
+	
+	
 }
 
 .rect1 {
@@ -213,24 +182,24 @@ body {
 }
 
 .group6 {
-	top: 646px; left: 31px; 
+	position: absolute; top: 646px; left: 20%;
+	height: 54px;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
 	padding-right: 516px;
 }
 
-.group6 .group-rect {
-	left: 0; 
-}
 
-.rect2 {
-	position: absolute; top: 749px; left: 31px; 
-	width: calc(100% - 62px); height: 40px;
-	max-width: 810px;
-	background-color: #d9d9d9;
-	--minContent: 527;
-	--hSizing: FIXED;
-	--vSizing: FIXED;
-	--pConstraintHorizontal: MIN;
-	--pConstraintVertical: MIN;
+.btn-confirmar2 {
+	position: absolute; top: 230px; left: 50%; 
+	translate: -50% 0;
+	margin-left: -39px;
+	width: 225px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #f7f7f7;
+	padding: 6px 9px;
+	color: black;
 }
 
 .subtitle-nombre-de-usuario {
@@ -244,20 +213,27 @@ body {
 }
 
 .group7 {
-	top: 838px; left: 31px; 
-	padding-left: 6px;
+	position: absolute; top: 838px; left: 20%;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	text-align: center;
 	padding-right: 384px;
 }
 
-.group7 .group-rect {
-	left: 0; 
+
+.group8 {
+	position: absolute; top: 730px; left: 20%;
+	--min-font-size: 26; --max-font-size: 36; font-size: var(--interpolate);
+	text-align: center;
+	padding-right: 384px;
 }
+
+
 
 .confirmar {
 	position: absolute; top: 931px; left: 31px; 
 	width: calc(100% - 62px);
 	max-width: 810px;
-	text-align: left;
+	text-align: center;
 	background-color: #d9d9d9;
 	padding: 0 6px;
 	--minContent: 810;
@@ -265,4 +241,8 @@ body {
 	--vSizing: HUG;
 	--pConstraintHorizontal: MIN;
 	--pConstraintVertical: MIN;
+}
+
+div{
+	text-align: center;
 }

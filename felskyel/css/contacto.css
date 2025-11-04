@@ -94,15 +94,11 @@ body {
 
 .footer {
 	container: footer / inline-size;
-	position: absolute; bottom: 0; left: 0; right: 0; 
-	align-items: unset;
-	gap: 113px;
-	padding-bottom: 78px;
-	--minContent: 992;
-	--hSizing: FILL;
-	--vSizing: HUG;
-	--pConstraintHorizontal: STRETCH;
-	--pConstraintVertical: MAX;
+	position: fixed; bottom: 0; left: 0; right: 0; 
+	align-items: center;
+	gap: 33px;
+	padding-bottom: 5px;
+	
 }
 
 .footer-line {
@@ -311,4 +307,28 @@ body {
 	.footer-row-bottom > .footer-social-icons {
 		width: 100%;
 	}
+}
+.appointment {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.appointment form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.appointment label {
+  font-weight: bold;
+}
+
+.appointment input, 
+.appointment button {
+  padding: 8px;
+  font-size: 1rem;
 }

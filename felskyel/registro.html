@@ -12,49 +12,51 @@
 
 <body>
 	<h1 class="title-registro title2">Registro</h1>
-	<div class="line line1"></div>
-	<button class="btn-confirmar text2 hover-dark">Confirmar</button>
+	
+	
 	<button class="btn-b btn1 hover-dark">cliente</button>
 	<h2 class="subtitle-cual-es-tu subtitle3">¿Cual es tu rol?</h2>
-	<button class="btn-b btn-proveedor hover-dark">Proveedor</button>
+	<button class="btn-b btn-proveedor hover-dark"
+	onclick="window.open('solicitud-para-registro.html')">Proveedor</button>
 	<h2 class="subtitle-o subtitle3">o</h2>
 	
+	<form action="/perfil.html" autocomplete="on">
 	<div class="group1">
-		<div class="group group2">
-			<div class="rect-a group-rect"></div>
-			<h2 class="group-subtitle">Ingresa tu nombre</h2>
+		<label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
 		</div>
 		
-		<div class="group group3">
-			<div class="rect-a group-rect"></div>
-			<h2 class="group-subtitle">Ingresa tu nombre</h2>
-		</div>
-	</div>
-	
+		
 	<div class="group group4">
-		<div class="rect-a group-rect"></div>
-		<h2 class="group-subtitle">Ingresa tu apellido</h2>
+		<label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
 	</div>
 	
 	<div class="group5">
-		<div class="rect-a rect1"></div>
-		<h2 class="subtitle-fecha-de">Fecha de nacimiento      D/M/A</h2>
+		<label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
 	</div>
 	
 	<div class="group group6">
-		<div class="rect-a group-rect"></div>
-		<h2 class="group-subtitle">Ingresa tu correo </h2>
+		<label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
 	</div>
 	
-	<div class="rect2"></div>
-	<h2 class="subtitle-nombre-de-usuario subtitle2">Nombre de usuario</h2>
-	
+	<div class="group group8">
+	<label for="username">Nombre de usuario:</label>
+  <input type="text" id="username" name="username"><br><br>
+	</div>
+
 	<div class="group group7">
-		<div class="rect-a group-rect"></div>
-		<h2 class="group-subtitle">Ingresa  una Contraseña</h2>
-	</div>
+		 <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"><br><br>
+
+  <button type="submit" class="btn-confirmar text2 hover-dark">Confirmar</button> 
+  <br><br>
+<button type="reset" class="btn-confirmar2 text2 hover-dark">Reiniciar</button> 
+</div>
+	</form>
 	
-	<div class="confirmar subtitle2">Confirmar contraseña</div>
 </body>
 
 </html>

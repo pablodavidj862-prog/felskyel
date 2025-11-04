@@ -14,19 +14,26 @@
 	<img src="assets/perfil/img.png" class="img-top" />
 	<h1 class="title-inicio-sesion title2">Inicio sesión</h1>
 	
+	<form action="/index.html" autocomplete="on">
 	<div class="row-a row1">
-		<h2 class="row-subtitle">Correo / usuario:</h2>
-		<div class="row-rect1"></div>
+		<label for="fname">Nombre/correo electrónico:</label>
+  <input type="text" id="fname" name="fname"><br><br>
 	</div>
 	
 	<div class="row-a row2">
-		<h2 class="row-subtitle">Contraseña:</h2>
-		<div class="row-rect1"></div>
+			 <label for="pwd">Contraseña:</label>
+  <input type="password" id="pwd" name="pwd"><br><br>
 	</div>
-	
-	<button class="btn-iniciar hover-bright text2">Iniciar</button>
+	</form>
+	<button class="btn-iniciar hover-bright text2" 
+	onclick="location.href='index.html'">Iniciar</button>
+
 	<h2 class="subtitle-crear-cuenta subtitle2">Crear cuenta</h2>
-	<button class="btn-bottom text2 hover-dark">Iniciar registro</button>
+	<button class="btn-bottom text2 hover-dark"
+	onclick="window.open('registro.html')""
+	>Iniciar registro</button>
+
+
 </body>
 
 </html>
